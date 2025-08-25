@@ -25,5 +25,5 @@ func init() {
 
 func TestE2e(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Block Volume attach  e2e test suite")
+	RunSpecs(t, "Block Volume attach e2e test suite")
 }
